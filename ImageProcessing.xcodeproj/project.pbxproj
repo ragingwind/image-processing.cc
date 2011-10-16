@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		795A857214483F3500F13519 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795A857114483F3500F13519 /* FilterViewController.m */; };
+		795A857914483F8A00F13519 /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 795A857814483F8A00F13519 /* Filter.m */; };
+		795A857B1448408600F13519 /* Butterfly.png in Resources */ = {isa = PBXBuildFile; fileRef = 795A857A1448408600F13519 /* Butterfly.png */; };
+		799BB0B01448383700C2C15D /* CFDataRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 799BB0A91448383700C2C15D /* CFDataRep.m */; };
+		799BB0B11448383700C2C15D /* CGImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 799BB0AB1448383700C2C15D /* CGImageRep.m */; };
+		799BB0B21448383700C2C15D /* ColorConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 799BB0AD1448383700C2C15D /* ColorConverter.m */; };
+		799BB0B31448383700C2C15D /* UIImage+Processing.m in Sources */ = {isa = PBXBuildFile; fileRef = 799BB0AF1448383700C2C15D /* UIImage+Processing.m */; };
+		79EE94E5144831C3002F42FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EE94E4144831C3002F42FD /* UIKit.framework */; };
+		79EE94E7144831C3002F42FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EE94E6144831C3002F42FD /* Foundation.framework */; };
+		79EE94E9144831C3002F42FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EE94E8144831C3002F42FD /* CoreGraphics.framework */; };
+		79EE94EF144831C3002F42FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79EE94ED144831C3002F42FD /* InfoPlist.strings */; };
+		79EE94F2144831C3002F42FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EE94F1144831C3002F42FD /* main.m */; };
+		79EE94F5144831C3002F42FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EE94F4144831C3002F42FD /* AppDelegate.m */; };
+		79EE94F8144831C3002F42FD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EE94F6144831C3002F42FD /* MainWindow.xib */; };
+		79EE94FB144831C3002F42FD /* FiltersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EE94FA144831C3002F42FD /* FiltersViewController.m */; };
+		79EE94FE144831C3002F42FD /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EE94FC144831C3002F42FD /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		795A857014483F3500F13519 /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		795A857114483F3500F13519 /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		795A857714483F8A00F13519 /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
+		795A857814483F8A00F13519 /* Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Filter.m; sourceTree = "<group>"; };
+		795A857A1448408600F13519 /* Butterfly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Butterfly.png; sourceTree = "<group>"; };
+		799BB0A81448383700C2C15D /* CFDataRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFDataRep.h; sourceTree = "<group>"; };
+		799BB0A91448383700C2C15D /* CFDataRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFDataRep.m; sourceTree = "<group>"; };
+		799BB0AA1448383700C2C15D /* CGImageRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGImageRep.h; sourceTree = "<group>"; };
+		799BB0AB1448383700C2C15D /* CGImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGImageRep.m; sourceTree = "<group>"; };
+		799BB0AC1448383700C2C15D /* ColorConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorConverter.h; sourceTree = "<group>"; };
+		799BB0AD1448383700C2C15D /* ColorConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorConverter.m; sourceTree = "<group>"; };
+		799BB0AE1448383700C2C15D /* UIImage+Processing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Processing.h"; sourceTree = "<group>"; };
+		799BB0AF1448383700C2C15D /* UIImage+Processing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Processing.m"; sourceTree = "<group>"; };
+		799BB0B6144838DD00C2C15D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79EE94E0144831C3002F42FD /* ImageProcessing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageProcessing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EE94E4144831C3002F42FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79EE94E6144831C3002F42FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79EE94E8144831C3002F42FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79EE94EC144831C3002F42FD /* ImageProcessing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageProcessing-Info.plist"; sourceTree = "<group>"; };
+		79EE94EE144831C3002F42FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79EE94F0144831C3002F42FD /* ImageProcessing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageProcessing-Prefix.pch"; sourceTree = "<group>"; };
+		79EE94F1144831C3002F42FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79EE94F4144831C3002F42FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79EE94F7144831C3002F42FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		79EE94F9144831C3002F42FD /* FiltersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiltersViewController.h; sourceTree = "<group>"; };
+		79EE94FA144831C3002F42FD /* FiltersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiltersViewController.m; sourceTree = "<group>"; };
+		79EE94FD144831C3002F42FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79EE94DD144831C3002F42FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EE94E5144831C3002F42FD /* UIKit.framework in Frameworks */,
+				79EE94E7144831C3002F42FD /* Foundation.framework in Frameworks */,
+				79EE94E9144831C3002F42FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		799BB0B51448384000C2C15D /* UIImage+Processing */ = {
+			isa = PBXGroup;
+			children = (
+				799BB0A81448383700C2C15D /* CFDataRep.h */,
+				799BB0A91448383700C2C15D /* CFDataRep.m */,
+				799BB0AA1448383700C2C15D /* CGImageRep.h */,
+				799BB0AB1448383700C2C15D /* CGImageRep.m */,
+				799BB0AC1448383700C2C15D /* ColorConverter.h */,
+				799BB0AD1448383700C2C15D /* ColorConverter.m */,
+				799BB0AE1448383700C2C15D /* UIImage+Processing.h */,
+				799BB0AF1448383700C2C15D /* UIImage+Processing.m */,
+			);
+			name = "UIImage+Processing";
+			sourceTree = "<group>";
+		};
+		79EE94D5144831C3002F42FD = {
+			isa = PBXGroup;
+			children = (
+				799BB0B51448384000C2C15D /* UIImage+Processing */,
+				79EE94EA144831C3002F42FD /* ImageProcessing */,
+				79EE94E3144831C3002F42FD /* Frameworks */,
+				79EE94E1144831C3002F42FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79EE94E1144831C3002F42FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79EE94E0144831C3002F42FD /* ImageProcessing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79EE94E3144831C3002F42FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79EE94E4144831C3002F42FD /* UIKit.framework */,
+				79EE94E6144831C3002F42FD /* Foundation.framework */,
+				79EE94E8144831C3002F42FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79EE94EA144831C3002F42FD /* ImageProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				795A857A1448408600F13519 /* Butterfly.png */,
+				799BB0B6144838DD00C2C15D /* AppDelegate.h */,
+				79EE94F4144831C3002F42FD /* AppDelegate.m */,
+				79EE94F6144831C3002F42FD /* MainWindow.xib */,
+				795A857714483F8A00F13519 /* Filter.h */,
+				795A857814483F8A00F13519 /* Filter.m */,
+				79EE94FC144831C3002F42FD /* RootViewController.xib */,
+				79EE94F9144831C3002F42FD /* FiltersViewController.h */,
+				79EE94FA144831C3002F42FD /* FiltersViewController.m */,
+				795A857014483F3500F13519 /* FilterViewController.h */,
+				795A857114483F3500F13519 /* FilterViewController.m */,
+				79EE94EB144831C3002F42FD /* Supporting Files */,
+			);
+			path = ImageProcessing;
+			sourceTree = "<group>";
+		};
+		79EE94EB144831C3002F42FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79EE94EC144831C3002F42FD /* ImageProcessing-Info.plist */,
+				79EE94ED144831C3002F42FD /* InfoPlist.strings */,
+				79EE94F0144831C3002F42FD /* ImageProcessing-Prefix.pch */,
+				79EE94F1144831C3002F42FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79EE94DF144831C3002F42FD /* ImageProcessing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EE9501144831C3002F42FD /* Build configuration list for PBXNativeTarget "ImageProcessing" */;
+			buildPhases = (
+				79EE94DC144831C3002F42FD /* Sources */,
+				79EE94DD144831C3002F42FD /* Frameworks */,
+				79EE94DE144831C3002F42FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageProcessing;
+			productName = ImageProcessing;
+			productReference = 79EE94E0144831C3002F42FD /* ImageProcessing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79EE94D7144831C3002F42FD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 79EE94DA144831C3002F42FD /* Build configuration list for PBXProject "ImageProcessing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79EE94D5144831C3002F42FD;
+			productRefGroup = 79EE94E1144831C3002F42FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79EE94DF144831C3002F42FD /* ImageProcessing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79EE94DE144831C3002F42FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EE94EF144831C3002F42FD /* InfoPlist.strings in Resources */,
+				79EE94F8144831C3002F42FD /* MainWindow.xib in Resources */,
+				79EE94FE144831C3002F42FD /* RootViewController.xib in Resources */,
+				795A857B1448408600F13519 /* Butterfly.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79EE94DC144831C3002F42FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EE94F2144831C3002F42FD /* main.m in Sources */,
+				79EE94F5144831C3002F42FD /* AppDelegate.m in Sources */,
+				79EE94FB144831C3002F42FD /* FiltersViewController.m in Sources */,
+				799BB0B01448383700C2C15D /* CFDataRep.m in Sources */,
+				799BB0B11448383700C2C15D /* CGImageRep.m in Sources */,
+				799BB0B21448383700C2C15D /* ColorConverter.m in Sources */,
+				799BB0B31448383700C2C15D /* UIImage+Processing.m in Sources */,
+				795A857214483F3500F13519 /* FilterViewController.m in Sources */,
+				795A857914483F8A00F13519 /* Filter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79EE94ED144831C3002F42FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79EE94EE144831C3002F42FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79EE94F6144831C3002F42FD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79EE94F7144831C3002F42FD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		79EE94FC144831C3002F42FD /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79EE94FD144831C3002F42FD /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79EE94FF144831C3002F42FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79EE9500144831C3002F42FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		79EE9502144831C3002F42FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageProcessing/ImageProcessing-Prefix.pch";
+				INFOPLIST_FILE = "ImageProcessing/ImageProcessing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79EE9503144831C3002F42FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageProcessing/ImageProcessing-Prefix.pch";
+				INFOPLIST_FILE = "ImageProcessing/ImageProcessing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79EE94DA144831C3002F42FD /* Build configuration list for PBXProject "ImageProcessing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EE94FF144831C3002F42FD /* Debug */,
+				79EE9500144831C3002F42FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EE9501144831C3002F42FD /* Build configuration list for PBXNativeTarget "ImageProcessing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EE9502144831C3002F42FD /* Debug */,
+				79EE9503144831C3002F42FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79EE94D7144831C3002F42FD /* Project object */;
+}
