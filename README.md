@@ -15,3 +15,7 @@ This example implemented by Quartz 2D and pixel operations. It was made for lear
 * Photoshop Blur
 * Box Blur
 * Gaussian Blur
+
+
+# License
+Copyright © 2010 @ragingwind. All rights reserved. Use of this source code is governed by a [MIT](http://ragingwind.github.com/LICENSE/MIT)
