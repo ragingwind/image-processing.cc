@@ -1,5 +1,8 @@
-# Image processing example for iOS
-This example implemented with only Quartz 2D. It was made for learning image processing, easier to understand.  It may have a defect or performance issue. supports filter list below.
+# Image processing code-catalog
+This project is code-catalog of image processing.
+
+## Image processing  for iOS: Basic
+This example implemented by Quartz 2D and pixel operations. It was made for learning image processing and easier to understand. The example may have a defect or performance issue. Please refer to supports filter list below.
 
 * Grey
 * Bright
@@ -12,6 +15,3 @@ This example implemented with only Quartz 2D. It was made for learning image pro
 * Photoshop Blur
 * Box Blur
 * Gaussian Blur
-
-# MORE
-if you have a need help, suggestions or anything? let me know, mail to ragingwind@gmail.com, follow @ragingwind on twitter.com
